@@ -1,0 +1,17 @@
+ body{
+            background-color: rgba(145, 154, 232, 0.9);
+        }
+        .container{
+            width: 1000px;
+            height: 600px;
+        opacity: 0.9;
+        background-image: url(../../logo.png)  ;
+        background-repeat: no-repeat ;
+        background-size: contain;
+        background-position: center;
+        background-attachment: fixed;
+       }
+        h2{
+        color: rgb(47, 10, 10);
+       }
+       
