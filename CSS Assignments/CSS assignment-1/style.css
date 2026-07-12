@@ -1,17 +1,71 @@
- body{
-            background-color: rgba(145, 154, 232, 0.9);
-        }
-        .container{
-            width: 1000px;
-            height: 600px;
-        opacity: 0.9;
-        background-image: url(../../logo.png)  ;
-        background-repeat: no-repeat ;
-        background-size: contain;
-        background-position: center;
-        background-attachment: fixed;
-       }
-        h2{
-        color: rgb(47, 10, 10);
-       }
-       
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Georgia, serif;
+}
+
+body{
+    background:white;
+    display:flex;   
+    justify-content:center;
+    
+    min-height:100vh;
+}
+
+.container{
+    width:700px;
+    text-align:center;
+}
+
+.banner{
+    width:520px;
+    height:260px;
+    object-fit:cover;
+    margin-bottom:30px;
+    padding: 10px;
+    
+}
+
+.category{
+    font-size:11px;
+    letter-spacing:2px;
+    color:grey;
+    margin-bottom:15px;
+}
+
+h1{
+    font-size:36px;
+    font-weight:bold;
+    color:darkslategrey;
+    margin-bottom:15px;
+}
+
+.author{
+    color:green;
+    font-size:13px;
+    margin-bottom:35px;
+}
+
+.content{
+    width:80%;
+    margin:auto;
+    text-align:left;
+}
+
+.content p{
+    color:grey;
+    line-height:1.9;
+    font-size:15px;
+    margin-bottom:20px;
+}
+
+.content a{
+    color:purple;
+    text-decoration:none;
+    font-style:italic;
+}
+
+.content a:hover{
+    color:black;
+}
